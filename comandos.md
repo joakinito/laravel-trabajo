@@ -8,15 +8,16 @@ Este comando se utiliza para crear un factory (Para crear con fake los campos de
 
 # php artisan make:model Alumno
 
-Este comando se utiliza para crear el model(Define la estructura y el comportamiento del objeto)
+
+Este comando se utiliza para crear el model(Define la estructura y el comportamiento del objeto) 
+    
 
 # php artisan make:migration create_alumnos_table
 
 Este comando se utiliza para crear el migration (Se utiliza para crear la tabla y decirle como tiene que ser sus campos)
+    1.php artisan migrate(Añadir la tabla a la base de datos).
 
-    1.php artisan migrate(Añadir la tabla a la base de datos)
-
-    2.php artisan migrate:rollback --step=1 (Elimina la migracion mas reciente que hayas creado, el step indica cuantas migraciones quieres eliminar )
+    2.php artisan migrate:rollback --step=1 (Elimina la migracion mas reciente que hayas creado, el step indica cuantas migraciones quieres eliminar).
 
 # php artisan make:seeder AlumnoSeeder
 
